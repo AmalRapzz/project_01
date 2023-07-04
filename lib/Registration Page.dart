@@ -9,6 +9,7 @@ class RegistrationPage extends StatelessWidget {
         appBar: AppBar(title: Text("Registration Page"),
     ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
           children: [
       Padding(
         padding: const EdgeInsets.all(12.0),
